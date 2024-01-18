@@ -12,6 +12,7 @@ title: 'Home'
 
 ## Packages
 
-| Package              | Description |
-| -------------------- | ----------- |
-| [site](./site.en.md) |             |
+| Package                          | Description |
+| -------------------------------- | ----------- |
+| [my-ts-lib](./my-ts-lib.en.md)   | My ts lib   |
+| [my-ts-lib2](./my-ts-lib2.en.md) | My ts lib2  |

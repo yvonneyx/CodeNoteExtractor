@@ -1,6 +1,11 @@
 'use strict';
 
 /**
+ * <zh/> My ts lib
+ * <en/> My ts lib
+ * @packageDocumentation
+ */
+/**
  * <zh/> 两个数之和
  *
  * <en/> Sum of two numbers
@@ -19,5 +24,16 @@
 function add(a, b) {
     return a + b;
 }
+/**
+ * <zh/> 测试类
+ * <en/> Test Class
+ */
+var Test = /** @class */ (function () {
+    function Test() {
+    }
+    Test.prototype.test = function () { };
+    return Test;
+}());
 
+exports.Test = Test;
 exports.add = add;

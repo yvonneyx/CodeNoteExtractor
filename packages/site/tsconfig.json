@@ -5,8 +5,11 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
-      "@@/*": [".dumi/tmp/*"]
-    }
+      "@@/*": [".dumi/tmp/*"],
+    },
   },
-  "include": [".dumirc.ts"]
+  "include": [".dumirc.ts"],
+  "ts-node": {
+    "esm": true,
+  },
 }

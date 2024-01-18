@@ -7,8 +7,10 @@
     "dev": "dumi dev",
     "build": "dumi build",
     "prepare": "husky install && dumi setup",
-    "doc": "ts-node ./scripts/documenter.ts build prepare clear && ts-node ./scripts/generate-intl.ts"
+    "doc:simple": "ts-node ./scripts/documenter.ts build prepare clear && ts-node ./scripts/generate-intl.ts",
+    "doc": "ts-node ./scripts/generate-api.ts && ts-node ./scripts/generate-intl.ts"
   },
+  "types": "lib/index.d.ts",
   "authors": [
     "yvonneyx"
   ],
@@ -31,5 +33,9 @@
     "dumi": "^2.2.17",
     "husky": "^8.0.3",
     "prettier": "^3.2.4"
+  },
+  "dependencies": {
+    "@manypkg/get-packages": "^2.2.0",
+    "types": "^0.1.1"
   }
 }

@@ -12,6 +12,7 @@ title: 'Home'
 
 ## Packages
 
-| Package              | 描述 |
-| -------------------- | ---- |
-| [site](./site.zh.md) |      |
+| Package                          | 描述       |
+| -------------------------------- | ---------- |
+| [my-ts-lib](./my-ts-lib.zh.md)   | My ts lib  |
+| [my-ts-lib2](./my-ts-lib2.zh.md) | My ts lib2 |

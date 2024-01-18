@@ -1,4 +1,9 @@
 /**
+ * <zh/> My ts lib
+ * <en/> My ts lib
+ * @packageDocumentation
+ */
+/**
  * <zh/> 两个数之和
  *
  * <en/> Sum of two numbers
@@ -15,3 +20,11 @@
  * ```
  */
 export declare function add(a: number, b: number): number;
+/**
+ * <zh/> 测试类
+ * <en/> Test Class
+ */
+export declare class Test {
+    static variable: "test";
+    protected test(): void;
+}

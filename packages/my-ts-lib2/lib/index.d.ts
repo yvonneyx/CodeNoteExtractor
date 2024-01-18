@@ -1,6 +1,6 @@
 /**
- * <zh/> My ts lib
- * <en/> My ts lib
+ * <zh/> My ts lib2
+ * <en/> My ts lib2
  * @packageDocumentation
  */
 /**
@@ -19,15 +19,4 @@
  * const sum = add(1, 2); // 3
  * ```
  */
-export function add(a: number, b: number) {
-  return a + b;
-}
-
-/**
- * <zh/> 测试类
- * <en/> Test Class
- */
-export class Test {
-  static variable: "test";
-  protected test() {}
-}
+export declare function add2(a: number, b: number): number;
