@@ -36,7 +36,7 @@ function prepare() {
  */
 function clear() {
   execSync(`rm -rf ${input}`);
-  execSync(`rm -rf ${output}`);
+  // execSync(`rm -rf ${output}`);
   execSync(`rm -rf etc`);
   execSync(`rm -rf tsdoc-metadata.json`);
 }

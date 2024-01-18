@@ -7,7 +7,7 @@
     "dev": "dumi dev",
     "build": "dumi build",
     "prepare": "husky install && dumi setup",
-    "doc": "ts-node ./scripts/documenter.ts"
+    "doc": "ts-node ./scripts/documenter.ts build prepare clear && ts-node ./scripts/generate-intl.ts"
   },
   "authors": [
     "yvonneyx"
